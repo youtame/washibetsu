@@ -1,0 +1,67 @@
+name: Deploy to GitHub Pages
+
+on:
+    push:
+        branches:
+            - main
+    workflow_dispatch:
+        inputs:
+            deploy_reason:
+                description: "デプロイの理由"
+                required: true
+                default: "manual deploy"
+
+permissions:
+    contents: read
+    pages: write
+    id-token: write
+
+concurrency:
+    group: "pages"
+    cancel-in-progress: true
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        defaults:
+            run:
+                working-directory: ./app
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 24
+
+            - name: Install dependencies
+              run: npm install
+
+            - name: Build
+              run: npx vite build
+
+            - name: Create CNAME file
+              run: echo "yuharado.lozdo.com" > dist/CNAME
+
+            - name: Upload artifact
+              uses: actions/upload-pages-artifact@v3
+              with:
+                  path: app/dist
+
+    deploy:
+        needs: build
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+        runs-on: ubuntu-latest
+        steps:
+            - name: Guard manual deploy branch
+              if: github.event_name == 'workflow_dispatch' && github.ref_name != 'main'
+              run: |
+                  echo "Manual deploy is only allowed on main branch"
+                  exit 1
+
+            - name: Deploy to GitHub Pages
+              id: deployment
+              uses: actions/deploy-pages@v4

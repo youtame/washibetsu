@@ -1,0 +1,452 @@
+[
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d471",
+        "code": "1001",
+        "category": "フルーツ餅シリーズ",
+        "name": "フルーツ餅シリーズ",
+        "price": 35,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            { "flavor": "ミックス餅", "allergens": ["不明"] },
+            { "flavor": "ソーダ餅", "allergens": ["不明"] },
+            { "flavor": "コーラ餅", "allergens": ["不明"] }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d472",
+        "code": "1002",
+        "category": "うまい棒シリーズ",
+        "name": "うまい棒シリーズ",
+        "price": 15,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            {
+                "flavor": "コンポタージュ",
+                "allergens": ["乳", "小麦", "豚肉", "鶏肉", "大豆", "胡麻"]
+            },
+            {
+                "flavor": "めんたい",
+                "allergens": ["乳", "小麦", "大豆", "ゼラチン"]
+            },
+            {
+                "flavor": "牛タン塩",
+                "allergens": [
+                    "卵",
+                    "乳",
+                    "小麦",
+                    "牛肉",
+                    "鶏肉",
+                    "大豆",
+                    "ゼラチン"
+                ]
+            },
+            {
+                "flavor": "野菜サラダ",
+                "allergens": ["乳", "小麦", "豚肉", "鶏肉", "大豆", "ゼラチン"]
+            },
+            { "flavor": "のり塩", "allergens": ["乳", "大豆", "青さ"] },
+            { "flavor": "とんかつソース", "allergens": ["乳", "小麦", "大豆"] }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d473",
+        "code": "1003",
+        "category": "ガブリチュウシリーズ",
+        "name": "ガブリチュウシリーズ",
+        "price": 30,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            { "flavor": "ラムネ", "allergens": ["乳", "大豆", "ゼラチン"] },
+            { "flavor": "コーラ", "allergens": ["乳", "大豆", "ゼラチン"] },
+            { "flavor": "グレープ", "allergens": ["乳", "大豆", "ゼラチン"] }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d474",
+        "code": "1004",
+        "category": "パチパチパニックシリーズ",
+        "name": "パチパチパニックシリーズ",
+        "price": 35,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            { "flavor": "コーラ", "allergens": ["乳"] },
+            { "flavor": "ソーダ", "allergens": ["乳"] },
+            { "flavor": "グレープ", "allergens": ["乳"] }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d475",
+        "code": "1005",
+        "category": "サワーペーパーキャンディーシリーズ",
+        "name": "サワーペーパーキャンディーシリーズ",
+        "price": 25,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            { "flavor": "コーラ", "allergens": ["不明"] },
+            { "flavor": "グレープ", "allergens": ["不明"] }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d476",
+        "code": "1006",
+        "category": "まけんぐみシリーズ",
+        "name": "まけんぐみシリーズ",
+        "price": 15,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            { "flavor": "グレープ", "allergens": ["大豆", "ゼラチン"] },
+            { "flavor": "コーラ", "allergens": ["大豆", "ゼラチン"] }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d477",
+        "code": "1007",
+        "category": "ヨーグルシリーズ",
+        "name": "ヨーグルシリーズ",
+        "price": 35,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            { "flavor": "フラワー", "allergens": ["大豆"] },
+            { "flavor": "サイダー", "allergens": ["大豆"] }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d478",
+        "code": "1008",
+        "category": "ゼリーボールシリーズ",
+        "name": "ゼリーボールシリーズ",
+        "price": 10,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            { "flavor": "サイダー", "allergens": ["リンゴ"] },
+            { "flavor": "コーラ", "allergens": ["リンゴ"] },
+            { "flavor": "グレープ", "allergens": ["リンゴ"] }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+        "code": "1009",
+        "category": "ロールキャンディーシリーズ",
+        "name": "ロールキャンディーシリーズ",
+        "price": 55,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            { "flavor": "コーラ", "allergens": ["リンゴ"] },
+            { "flavor": "グレープ", "allergens": ["リンゴ"] }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d480",
+        "code": "1010",
+        "category": "ハイチューシリーズ",
+        "name": "ハイチューシリーズ",
+        "price": 15,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            { "flavor": "グレープ", "allergens": ["リンゴ", "ゼラチン"] },
+            { "flavor": "ストロベリー", "allergens": ["乳", "ゼラチン"] },
+            {
+                "flavor": "グリーンアップル",
+                "allergens": ["リンゴ", "ゼラチン"]
+            }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d481",
+        "code": "1011",
+        "category": "ポテトフライシリーズ",
+        "name": "ポテトフライシリーズ",
+        "price": 35,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            {
+                "flavor": "カルビ焼き",
+                "allergens": [
+                    "乳",
+                    "小麦",
+                    "牛肉",
+                    "豚肉",
+                    "鶏肉",
+                    "大豆",
+                    "胡麻"
+                ]
+            },
+            { "flavor": "じゃが塩バター", "allergens": ["乳", "小麦", "大豆"] }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d482",
+        "code": "1012",
+        "category": "ベーガムシリーズ",
+        "name": "ベーガムシリーズ",
+        "price": 30,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            { "flavor": "赤ベークロベーガム", "allergens": ["なし"] },
+            { "flavor": "青ベーミドリベーガム", "allergens": ["なし"] }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d483",
+        "code": "2001",
+        "category": "単品",
+        "name": "にんじん",
+        "price": 35,
+        "image": "https://via.placeholder.com/150",
+        "variants": [{ "flavor": "標準", "allergens": ["なし"] }]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d484",
+        "code": "2002",
+        "category": "単品",
+        "name": "輪投げチョコ",
+        "price": 90,
+        "image": "https://via.placeholder.com/150",
+        "variants": [{ "flavor": "標準", "allergens": ["卵", "乳", "大豆"] }]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d485",
+        "code": "2003",
+        "category": "単品",
+        "name": "こんがりラスク",
+        "price": 35,
+        "image": "https://via.placeholder.com/150",
+        "variants": [{ "flavor": "標準", "allergens": ["乳", "小麦", "大豆"] }]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d486",
+        "code": "2004",
+        "category": "単品",
+        "name": "ビッグカツ",
+        "price": 35,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            {
+                "flavor": "標準",
+                "allergens": [
+                    "卵",
+                    "乳",
+                    "小麦",
+                    "豚肉",
+                    "鶏肉",
+                    "モモ",
+                    "リンゴ",
+                    "大豆"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d487",
+        "code": "2005",
+        "category": "単品",
+        "name": "酸っぱいレモンにご用心",
+        "price": 35,
+        "image": "https://via.placeholder.com/150",
+        "variants": [{ "flavor": "標準", "allergens": ["なし"] }]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d488",
+        "code": "2006",
+        "category": "単品",
+        "name": "たらたらしてんじゃねーぞ",
+        "price": 45,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            { "flavor": "標準", "allergens": ["小麦", "大豆", "ゼラチン"] }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d489",
+        "code": "2007",
+        "category": "単品",
+        "name": "ヤングドーナツ",
+        "price": 55,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            { "flavor": "標準", "allergens": ["卵", "乳", "小麦", "大豆"] }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d490",
+        "code": "2008",
+        "category": "単品",
+        "name": "たべっ子どうぶつビスケット",
+        "price": 60,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            { "flavor": "標準", "allergens": ["乳", "小麦", "大豆", "胡麻"] }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d491",
+        "code": "2009",
+        "category": "単品",
+        "name": "麩菓子",
+        "price": 30,
+        "image": "https://via.placeholder.com/150",
+        "variants": [{ "flavor": "標準", "allergens": ["不明"] }]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d492",
+        "code": "2010",
+        "category": "単品",
+        "name": "チョコマシュマロ",
+        "price": 15,
+        "image": "https://via.placeholder.com/150",
+        "variants": [{ "flavor": "標準", "allergens": ["大豆", "ゼラチン"] }]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d493",
+        "code": "2011",
+        "category": "単品",
+        "name": "どんどんやき",
+        "price": 30,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            { "flavor": "標準", "allergens": ["乳", "小麦", "落花生", "大豆"] }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d494",
+        "code": "2012",
+        "category": "単品",
+        "name": "ジャイアントカプリコ",
+        "price": 165,
+        "image": "https://via.placeholder.com/150",
+        "variants": [{ "flavor": "標準", "allergens": ["乳", "小麦", "大豆"] }]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d495",
+        "code": "2013",
+        "category": "単品",
+        "name": "お薬屋さんラムネ",
+        "price": 30,
+        "image": "https://via.placeholder.com/150",
+        "variants": [{ "flavor": "標準", "allergens": ["不明"] }]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d496",
+        "code": "2014",
+        "category": "単品",
+        "name": "もっちゃん団子",
+        "price": 35,
+        "image": "https://via.placeholder.com/150",
+        "variants": [{ "flavor": "標準", "allergens": ["なし"] }]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d497",
+        "code": "2015",
+        "category": "単品",
+        "name": "泡ソーダ",
+        "price": 30,
+        "image": "https://via.placeholder.com/150",
+        "variants": [{ "flavor": "標準", "allergens": ["なし"] }]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d498",
+        "code": "2016",
+        "category": "単品",
+        "name": "おやつカルパス",
+        "price": 15,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            { "flavor": "標準", "allergens": ["豚肉", "鶏肉", "ゼラチン"] }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d499",
+        "code": "2017",
+        "category": "単品",
+        "name": "フエラムネ",
+        "price": 30,
+        "image": "https://via.placeholder.com/150",
+        "variants": [{ "flavor": "標準", "allergens": ["なし"] }]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d500",
+        "code": "2018",
+        "category": "単品",
+        "name": "もろこしわたろう",
+        "price": 30,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            {
+                "flavor": "標準",
+                "allergens": [
+                    "乳",
+                    "小麦",
+                    "牛肉",
+                    "豚肉",
+                    "鶏肉",
+                    "大豆",
+                    "胡麻"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d501",
+        "code": "2019",
+        "category": "単品",
+        "name": "クッピーラムネ",
+        "price": 15,
+        "image": "https://via.placeholder.com/150",
+        "variants": [{ "flavor": "標準", "allergens": ["なし"] }]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d502",
+        "code": "2020",
+        "category": "単品",
+        "name": "こんにゃくゼリー",
+        "price": 15,
+        "image": "https://via.placeholder.com/150",
+        "variants": [{ "flavor": "標準", "allergens": ["リンゴ"] }]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d503",
+        "code": "2021",
+        "category": "単品",
+        "name": "プチプチ占いチョコ",
+        "price": 30,
+        "image": "https://via.placeholder.com/150",
+        "variants": [{ "flavor": "標準", "allergens": ["乳", "大豆"] }]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d504",
+        "code": "2022",
+        "category": "単品",
+        "name": "ベビースターラーメン",
+        "price": 35,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            {
+                "flavor": "標準",
+                "allergens": ["小麦", "豚肉", "鶏肉", "大豆", "ゼラチン"]
+            }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d505",
+        "code": "2023",
+        "category": "単品",
+        "name": "かっとよっちゃん赤",
+        "price": 45,
+        "image": "https://via.placeholder.com/150",
+        "variants": [
+            {
+                "flavor": "標準",
+                "allergens": ["小麦", "大豆", "ゼラチン", "イカ"]
+            }
+        ]
+    },
+    {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d506",
+        "code": "2024",
+        "category": "単品",
+        "name": "カメレオンキャンディー",
+        "price": 30,
+        "image": "https://via.placeholder.com/150",
+        "variants": [{ "flavor": "標準", "allergens": ["リンゴ"] }]
+    }
+]

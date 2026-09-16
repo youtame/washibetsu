@@ -1,25 +1,17 @@
 <template>
     <v-app>
-        <v-app-bar color="primary" title="Vuetify Test" />
+        <v-app-bar color="primary" density="compact" elevation="2">
+            <v-app-bar-title class="font-weight-bold tracking-wide">
+                湯原堂
+            </v-app-bar-title>
+            <v-spacer />
+            <v-btn variant="outlined" color="surface" size="small" to="/staff">
+                スタッフ用
+            </v-btn>
+        </v-app-bar>
 
         <v-main>
-            <v-container class="mt-6">
-                <v-card class="pa-4" max-width="400">
-                    <v-card-title>Vuetify works</v-card-title>
-
-                    <v-card-text>
-                        Vuetify が正しく適用されています
-                    </v-card-text>
-
-                    <v-card-actions>
-                        <v-btn color="primary" variant="flat">
-                            Test Button
-                        </v-btn>
-                    </v-card-actions>
-                </v-card>
-            </v-container>
+            <router-view />
         </v-main>
     </v-app>
 </template>
-
-<script setup lang="ts"></script>
