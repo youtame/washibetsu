@@ -5,9 +5,6 @@
                 湯原堂
             </v-app-bar-title>
             <v-spacer />
-            <v-btn variant="outlined" color="surface" size="small" to="/staff">
-                スタッフ用
-            </v-btn>
         </v-app-bar>
 
         <v-main>
