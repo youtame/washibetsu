@@ -12,9 +12,10 @@
             <v-alert
                 :type="foundProduct ? 'success' : 'grey'"
                 variant="tonal"
-                class="mb-4 text-subtitle-1 font-weight-bold"
+                class="mb-4 text-subtitle-1 font-weight-bold text-center"
+                :icon="foundProduct ? 'mdi-check-circle' : 'mdi-magnify'"
             >
-                {{ foundProduct ? foundProduct.name : "商品を検索中..." }}
+                {{ foundProduct ? foundProduct.name : "商品を検索..." }}
             </v-alert>
 
             <v-row dense>

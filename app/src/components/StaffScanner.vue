@@ -16,14 +16,14 @@
                 elevation="3"
             >
                 <v-card-title
-                    class="text-h6 d-flex justify-space-between align-center pb-2"
+                    class="text-h6 d-flex flex-column flex-sm-row justify-space-between align-start align-sm-center pb-2"
                 >
-                    <span class="font-weight-bold">注文内容</span>
+                    <span class="font-weight-bold mb-1 mb-sm-0">注文内容</span>
                     <v-chip
                         size="default"
                         color="info"
                         variant="tonal"
-                        class="font-weight-bold"
+                        class="font-weight-bold mt-2 mt-sm-0"
                     >
                         QR生成時刻: {{ scannedTime }}
                     </v-chip>
@@ -51,7 +51,6 @@
                                 </div>
                             </div>
 
-                            <!-- 数量表示 -->
                             <div class="d-flex align-center">
                                 <v-chip
                                     color="primary"
@@ -68,7 +67,6 @@
 
                 <v-divider class="my-4" />
 
-                <!-- 合計金額 -->
                 <div
                     class="d-flex justify-space-between align-center my-3 text-h5 font-weight-bold"
                 >

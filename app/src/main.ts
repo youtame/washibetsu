@@ -9,7 +9,6 @@ import "@mdi/font/css/materialdesignicons.css";
 import App from "./App.vue";
 import router from "./router";
 
-// 湯原堂（駄菓子屋）カスタムテーマ定義
 const yuharadoTheme: ThemeDefinition = {
     dark: false,
     colors: {

@@ -74,8 +74,8 @@
                 <div class="my-4 d-flex justify-center">
                     <qrcode-vue
                         :value="cartStore.qrPayload"
-                        :size="220"
-                        level="M"
+                        :size="250"
+                        level="L"
                     />
                 </div>
 
