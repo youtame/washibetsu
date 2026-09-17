@@ -26,6 +26,7 @@
                 >
                     <v-btn
                         block
+                        class="font-weight-bold"
                         size="x-large"
                         variant="outlined"
                         @click="appendDigit(n.toString())"

@@ -5,11 +5,11 @@
         "category": "フルーツ餅シリーズ",
         "name": "フルーツ餅シリーズ",
         "price": 35,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/1001.jpg",
         "variants": [
-            { "flavor": "ミックス餅", "allergens": ["不明"] },
-            { "flavor": "ソーダ餅", "allergens": ["不明"] },
-            { "flavor": "コーラ餅", "allergens": ["不明"] }
+            { "flavor": "ミックス餅", "allergens": ["なし"] },
+            { "flavor": "ソーダ餅", "allergens": ["なし"] },
+            { "flavor": "コーラ餅", "allergens": ["なし"] }
         ]
     },
     {
@@ -18,11 +18,11 @@
         "category": "うまい棒シリーズ",
         "name": "うまい棒シリーズ",
         "price": 15,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/1002.jpg",
         "variants": [
             {
                 "flavor": "コンポタージュ",
-                "allergens": ["乳", "小麦", "豚肉", "鶏肉", "大豆", "胡麻"]
+                "allergens": ["乳", "小麦", "豚肉", "鶏肉", "大豆", "ゴマ"]
             },
             {
                 "flavor": "めんたい",
@@ -54,7 +54,7 @@
         "category": "ガブリチュウシリーズ",
         "name": "ガブリチュウシリーズ",
         "price": 30,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/1003.jpg",
         "variants": [
             { "flavor": "ラムネ", "allergens": ["乳", "大豆", "ゼラチン"] },
             { "flavor": "コーラ", "allergens": ["乳", "大豆", "ゼラチン"] },
@@ -67,7 +67,7 @@
         "category": "パチパチパニックシリーズ",
         "name": "パチパチパニックシリーズ",
         "price": 35,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/1004.jpg",
         "variants": [
             { "flavor": "コーラ", "allergens": ["乳"] },
             { "flavor": "ソーダ", "allergens": ["乳"] },
@@ -80,7 +80,7 @@
         "category": "サワーペーパーキャンディーシリーズ",
         "name": "サワーペーパーキャンディーシリーズ",
         "price": 25,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/1005.jpg",
         "variants": [
             { "flavor": "コーラ", "allergens": ["不明"] },
             { "flavor": "グレープ", "allergens": ["不明"] }
@@ -92,7 +92,7 @@
         "category": "まけんぐみシリーズ",
         "name": "まけんぐみシリーズ",
         "price": 15,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/1006.jpg",
         "variants": [
             { "flavor": "グレープ", "allergens": ["大豆", "ゼラチン"] },
             { "flavor": "コーラ", "allergens": ["大豆", "ゼラチン"] }
@@ -104,7 +104,7 @@
         "category": "ヨーグルシリーズ",
         "name": "ヨーグルシリーズ",
         "price": 35,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/1007.jpg",
         "variants": [
             { "flavor": "フラワー", "allergens": ["大豆"] },
             { "flavor": "サイダー", "allergens": ["大豆"] }
@@ -116,7 +116,7 @@
         "category": "ゼリーボールシリーズ",
         "name": "ゼリーボールシリーズ",
         "price": 10,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/1008.jpg",
         "variants": [
             { "flavor": "サイダー", "allergens": ["リンゴ"] },
             { "flavor": "コーラ", "allergens": ["リンゴ"] },
@@ -129,7 +129,7 @@
         "category": "ロールキャンディーシリーズ",
         "name": "ロールキャンディーシリーズ",
         "price": 55,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/1009.jpg",
         "variants": [
             { "flavor": "コーラ", "allergens": ["リンゴ"] },
             { "flavor": "グレープ", "allergens": ["リンゴ"] }
@@ -141,7 +141,7 @@
         "category": "ハイチューシリーズ",
         "name": "ハイチューシリーズ",
         "price": 15,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/1010.jpg",
         "variants": [
             { "flavor": "グレープ", "allergens": ["リンゴ", "ゼラチン"] },
             { "flavor": "ストロベリー", "allergens": ["乳", "ゼラチン"] },
@@ -157,7 +157,7 @@
         "category": "ポテトフライシリーズ",
         "name": "ポテトフライシリーズ",
         "price": 35,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/1011.jpg",
         "variants": [
             {
                 "flavor": "カルビ焼き",
@@ -168,7 +168,7 @@
                     "豚肉",
                     "鶏肉",
                     "大豆",
-                    "胡麻"
+                    "ゴマ"
                 ]
             },
             { "flavor": "じゃが塩バター", "allergens": ["乳", "小麦", "大豆"] }
@@ -180,7 +180,7 @@
         "category": "ベーガムシリーズ",
         "name": "ベーガムシリーズ",
         "price": 30,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/1012.jpg",
         "variants": [
             { "flavor": "赤ベークロベーガム", "allergens": ["なし"] },
             { "flavor": "青ベーミドリベーガム", "allergens": ["なし"] }
@@ -192,7 +192,7 @@
         "category": "単品",
         "name": "にんじん",
         "price": 35,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2001.jpg",
         "variants": [{ "flavor": "標準", "allergens": ["なし"] }]
     },
     {
@@ -201,7 +201,7 @@
         "category": "単品",
         "name": "輪投げチョコ",
         "price": 90,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2002.jpg",
         "variants": [{ "flavor": "標準", "allergens": ["卵", "乳", "大豆"] }]
     },
     {
@@ -210,7 +210,7 @@
         "category": "単品",
         "name": "こんがりラスク",
         "price": 35,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2003.jpg",
         "variants": [{ "flavor": "標準", "allergens": ["乳", "小麦", "大豆"] }]
     },
     {
@@ -219,7 +219,7 @@
         "category": "単品",
         "name": "ビッグカツ",
         "price": 35,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2004.jpg",
         "variants": [
             {
                 "flavor": "標準",
@@ -231,7 +231,8 @@
                     "鶏肉",
                     "モモ",
                     "リンゴ",
-                    "大豆"
+                    "大豆",
+                    "魚介類"
                 ]
             }
         ]
@@ -242,7 +243,7 @@
         "category": "単品",
         "name": "酸っぱいレモンにご用心",
         "price": 35,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2005.jpg",
         "variants": [{ "flavor": "標準", "allergens": ["なし"] }]
     },
     {
@@ -251,7 +252,7 @@
         "category": "単品",
         "name": "たらたらしてんじゃねーぞ",
         "price": 45,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2006.jpg",
         "variants": [
             { "flavor": "標準", "allergens": ["小麦", "大豆", "ゼラチン"] }
         ]
@@ -262,9 +263,12 @@
         "category": "単品",
         "name": "ヤングドーナツ",
         "price": 55,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2007.jpg",
         "variants": [
-            { "flavor": "標準", "allergens": ["卵", "乳", "小麦", "大豆"] }
+            {
+                "flavor": "標準",
+                "allergens": ["卵", "乳", "小麦", "はちみつ（1歳未満の方）"]
+            }
         ]
     },
     {
@@ -273,9 +277,9 @@
         "category": "単品",
         "name": "たべっ子どうぶつビスケット",
         "price": 60,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2008.jpg",
         "variants": [
-            { "flavor": "標準", "allergens": ["乳", "小麦", "大豆", "胡麻"] }
+            { "flavor": "標準", "allergens": ["乳", "小麦", "大豆", "ゴマ"] }
         ]
     },
     {
@@ -284,8 +288,8 @@
         "category": "単品",
         "name": "麩菓子",
         "price": 30,
-        "image": "https://via.placeholder.com/150",
-        "variants": [{ "flavor": "標準", "allergens": ["不明"] }]
+        "image": "/dagashi/2009.jpg",
+        "variants": [{ "flavor": "標準", "allergens": ["小麦"] }]
     },
     {
         "id": "f47ac10b-58cc-4372-a567-0e02b2c3d492",
@@ -293,8 +297,10 @@
         "category": "単品",
         "name": "チョコマシュマロ",
         "price": 15,
-        "image": "https://via.placeholder.com/150",
-        "variants": [{ "flavor": "標準", "allergens": ["大豆", "ゼラチン"] }]
+        "image": "/dagashi/2010.jpg",
+        "variants": [
+            { "flavor": "標準", "allergens": ["乳", "大豆", "ゼラチン"] }
+        ]
     },
     {
         "id": "f47ac10b-58cc-4372-a567-0e02b2c3d493",
@@ -302,7 +308,7 @@
         "category": "単品",
         "name": "どんどんやき",
         "price": 30,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2011.jpg",
         "variants": [
             { "flavor": "標準", "allergens": ["乳", "小麦", "落花生", "大豆"] }
         ]
@@ -313,7 +319,7 @@
         "category": "単品",
         "name": "ジャイアントカプリコ",
         "price": 165,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2012.jpg",
         "variants": [{ "flavor": "標準", "allergens": ["乳", "小麦", "大豆"] }]
     },
     {
@@ -322,8 +328,8 @@
         "category": "単品",
         "name": "お薬屋さんラムネ",
         "price": 30,
-        "image": "https://via.placeholder.com/150",
-        "variants": [{ "flavor": "標準", "allergens": ["不明"] }]
+        "image": "/dagashi/2013.jpg",
+        "variants": [{ "flavor": "標準", "allergens": ["なし"] }]
     },
     {
         "id": "f47ac10b-58cc-4372-a567-0e02b2c3d496",
@@ -331,7 +337,7 @@
         "category": "単品",
         "name": "もっちゃん団子",
         "price": 35,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2014.jpg",
         "variants": [{ "flavor": "標準", "allergens": ["なし"] }]
     },
     {
@@ -340,7 +346,7 @@
         "category": "単品",
         "name": "泡ソーダ",
         "price": 30,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2015.jpg",
         "variants": [{ "flavor": "標準", "allergens": ["なし"] }]
     },
     {
@@ -349,9 +355,12 @@
         "category": "単品",
         "name": "おやつカルパス",
         "price": 15,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2016.jpg",
         "variants": [
-            { "flavor": "標準", "allergens": ["豚肉", "鶏肉", "ゼラチン"] }
+            {
+                "flavor": "標準",
+                "allergens": ["牛肉", "豚肉", "鶏肉", "ゼラチン"]
+            }
         ]
     },
     {
@@ -360,7 +369,7 @@
         "category": "単品",
         "name": "フエラムネ",
         "price": 30,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2017.jpg",
         "variants": [{ "flavor": "標準", "allergens": ["なし"] }]
     },
     {
@@ -369,19 +378,11 @@
         "category": "単品",
         "name": "もろこしわたろう",
         "price": 30,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2018.jpg",
         "variants": [
             {
                 "flavor": "標準",
-                "allergens": [
-                    "乳",
-                    "小麦",
-                    "牛肉",
-                    "豚肉",
-                    "鶏肉",
-                    "大豆",
-                    "胡麻"
-                ]
+                "allergens": ["乳", "小麦", "鶏肉", "大豆"]
             }
         ]
     },
@@ -391,7 +392,7 @@
         "category": "単品",
         "name": "クッピーラムネ",
         "price": 15,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2019.jpg",
         "variants": [{ "flavor": "標準", "allergens": ["なし"] }]
     },
     {
@@ -400,7 +401,7 @@
         "category": "単品",
         "name": "こんにゃくゼリー",
         "price": 15,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2020.jpg",
         "variants": [{ "flavor": "標準", "allergens": ["リンゴ"] }]
     },
     {
@@ -409,7 +410,7 @@
         "category": "単品",
         "name": "プチプチ占いチョコ",
         "price": 30,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2021.jpg",
         "variants": [{ "flavor": "標準", "allergens": ["乳", "大豆"] }]
     },
     {
@@ -418,7 +419,7 @@
         "category": "単品",
         "name": "ベビースターラーメン",
         "price": 35,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2022.jpg",
         "variants": [
             {
                 "flavor": "標準",
@@ -432,7 +433,7 @@
         "category": "単品",
         "name": "かっとよっちゃん赤",
         "price": 45,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2023.jpg",
         "variants": [
             {
                 "flavor": "標準",
@@ -446,7 +447,7 @@
         "category": "単品",
         "name": "カメレオンキャンディー",
         "price": 30,
-        "image": "https://via.placeholder.com/150",
+        "image": "/dagashi/2024.jpg",
         "variants": [{ "flavor": "標準", "allergens": ["リンゴ"] }]
     }
 ]
