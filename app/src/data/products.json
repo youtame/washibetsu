@@ -82,8 +82,8 @@
         "price": 25,
         "image": "/dagashi/1005.jpg",
         "variants": [
-            { "flavor": "コーラ", "allergens": ["不明"] },
-            { "flavor": "グレープ", "allergens": ["不明"] }
+            { "flavor": "コーラ", "allergens": ["小麦"] },
+            { "flavor": "グレープ", "allergens": ["小麦"] }
         ]
     },
     {
