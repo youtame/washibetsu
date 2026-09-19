@@ -43,7 +43,7 @@ export const useCartStore = defineStore("cart", {
             const payload = {
                 t: Date.now(),
                 i: this.cart.map((item) => ({
-                    id: item.product.id,
+                    c: item.product.code,
                     q: item.quantity,
                 })),
             };

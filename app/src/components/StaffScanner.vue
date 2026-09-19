@@ -9,6 +9,31 @@
 
             <div id="reader" class="my-4 rounded-lg overflow-hidden"></div>
 
+            <!-- エラー表示（関係のないコードが読み取られた場合） -->
+            <v-card
+                v-if="scanError"
+                color="error-lighten-5"
+                class="pa-6 mt-4 rounded-xl border-error"
+                elevation="2"
+            >
+                <v-alert
+                    type="error"
+                    variant="tonal"
+                    title="読み取りエラー"
+                    text="湯原堂の決済QRコードではありません。正しい二次元コードをかざしてください。"
+                    class="font-weight-bold mb-4"
+                />
+                <v-btn
+                    block
+                    size="x-large"
+                    color="error"
+                    class="text-h6 font-weight-bold py-4"
+                    @click="resetScanner"
+                >
+                    もう一度スキャンする
+                </v-btn>
+            </v-card>
+
             <v-card
                 v-if="scannedOrder"
                 color="surface"
@@ -119,13 +144,18 @@ interface ScannedItem {
 
 const scannedOrder = ref<{ items: ScannedItem[]; total: number } | null>(null);
 const scannedTime = ref("");
+const scanError = ref(false);
 let scanner: Html5QrcodeScanner | null = null;
 
 const onScanSuccess = (decodedText: string) => {
-    if (scannedOrder.value) return;
+    if (scannedOrder.value || scanError.value) return;
 
     try {
         const data = JSON.parse(decodedText);
+
+        if (!data.i || !Array.isArray(data.i)) {
+            throw new Error("Invalid format");
+        }
 
         if (data.t) {
             const date = new Date(data.t);
@@ -135,8 +165,8 @@ const onScanSuccess = (decodedText: string) => {
         let total = 0;
         const items: ScannedItem[] = [];
 
-        data.i.forEach((item: { id: string; q: number }) => {
-            const p = productsData.find((prod) => prod.id === item.id);
+        data.i.forEach((item: { c: string; q: number }) => {
+            const p = productsData.find((prod) => prod.code === item.c);
             if (p) {
                 items.push({
                     name: p.name,
@@ -146,6 +176,10 @@ const onScanSuccess = (decodedText: string) => {
                 total += p.price * item.q;
             }
         });
+
+        if (items.length === 0) {
+            throw new Error("No valid items");
+        }
 
         scannedOrder.value = { items, total };
         playSuccessSound();
@@ -158,12 +192,20 @@ const onScanSuccess = (decodedText: string) => {
             }
         }
     } catch (e) {
-        alert("無効な二次元コードです。");
+        scanError.value = true;
+        if (scanner) {
+            try {
+                scanner.pause(true);
+            } catch (err) {
+                console.error("Pause error:", err);
+            }
+        }
     }
 };
 
 const resetScanner = () => {
     scannedOrder.value = null;
+    scanError.value = false;
 
     if (scanner) {
         try {
@@ -202,5 +244,9 @@ onUnmounted(() => {
 
 .border-b:last-child {
     border-bottom: none;
+}
+
+.border-error {
+    border: 2px solid #ff5252;
 }
 </style>
