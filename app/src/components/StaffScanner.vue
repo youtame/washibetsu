@@ -9,7 +9,6 @@
 
             <div id="reader" class="my-4 rounded-lg overflow-hidden"></div>
 
-            <!-- エラー表示（関係のないコードが読み取られた場合） -->
             <v-card
                 v-if="scanError"
                 color="error-lighten-5"
@@ -58,7 +57,7 @@
 
                 <v-list class="bg-transparent pa-0">
                     <v-list-item
-                        v-for="(item, i) in scannedOrder.items"
+                        v-for="(item, i) in [...scannedOrder.items].reverse()"
                         :key="i"
                         class="py-3 px-2 border-b"
                     >
